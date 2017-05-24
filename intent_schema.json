@@ -1,0 +1,109 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "LIST_OF_ANSWERS"
+        }
+      ],
+      "intent": "AnswerIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Bet",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "BetIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "LIST_OF_ANSWERS"
+        }
+      ],
+      "intent": "AnswerOnlyIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Bet",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "BetOnlyIntent"
+    },
+    {
+      "intent": "DontKnowIntent"
+    },
+    {
+      "intent": "AllInIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Difficulty",
+          "type": "LIST_OF_DIFFICULTIES"
+        }
+      ],
+      "intent": "DifficultyIntent"
+    },
+    {
+      "intent": "ListGuessesIntent"
+    },
+    {
+      "intent": "CurrentWordIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Guess",
+          "type": "LIST_OF_LETTERS"
+        }
+      ],
+      "intent": "HangmanGuessIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Game",
+          "type": "LIST_OF_GAMES"
+        }
+      ],
+      "intent": "ChooseGameIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Game",
+          "type": "LIST_OF_GAMES"
+        }
+      ],
+      "intent": "ChooseGameOnlyIntent"
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

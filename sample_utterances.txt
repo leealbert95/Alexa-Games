@@ -1,0 +1,45 @@
+AnswerIntent the answer is {Answer}
+AnswerIntent my answer is {Answer}
+AnswerIntent is it {Answer}
+AnswerIntent {Answer} is my answer
+BetIntent i bet {Bet}
+BetIntent i will bet {Bet}
+BetIntent i want to bet {Bet}
+BetIntent bet {Bet}
+AnswerOnlyIntent {Answer}
+BetOnlyIntent {Bet}
+DontKnowIntent i don't know
+DontKnowIntent don't know
+DontKnowIntent skip
+DontKnowIntent i don't know that
+DontKnowIntent who knows
+DontKnowIntent i don't know this question
+DontKnowIntent i don't know that one
+DontKnowIntent dunno
+DontKnowIntent what's the answer
+DontKnowIntent give me the answer
+DontKnowIntent show me the answer
+AllInIntent i'm all in
+AllInIntent all in
+AllInIntent i push all in
+AllInIntent i'm going all in
+DifficultyIntent {Difficulty}
+DifficultyIntent {Difficulty} mode
+DifficultyIntent I choose {Difficulty}
+DifficultyIntent I choose {Difficulty} mode
+ListGuessesIntent What have I guessed
+ListGuessesIntent What letters have I guessed
+CurrentWordIntent What is my current word
+CurrentWordIntent current word
+HangmanGuessIntent {Guess}
+HangmanGuessIntent I guess {Guess}
+HangmanGuessIntent The letter {Guess}
+ChooseGameIntent Let's play {Game}
+ChooseGameOnlyIntent {Game}
+AMAZON.StartOverIntent start game
+AMAZON.StartOverIntent new game
+AMAZON.StartOverIntent start
+AMAZON.StartOverIntent start new game
+AMAZON.CancelIntent stop game
+AMAZON.CancelIntent cancel game
+AMAZON.CancelIntent quit game
